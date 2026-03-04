@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# Google Calendar API
+token_*.json
+credentials.json
+
+# 環境変数
+.env
+.env.*
+!.env.example
+
+# 状態ファイル
+calendar_monitor_state.json
+
+# テンプレート（カスタマイズ後）
+templates.json
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+
+# ログ
+*.log
+
+# その他
+*.bak
+*.tmp
